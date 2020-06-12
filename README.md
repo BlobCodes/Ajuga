@@ -1,4 +1,4 @@
-# Ajuga
+![](./etc/logo.png)
 
 A CLI application that first translates and/or afterwards reads out what you type into the prompt.
 
@@ -22,11 +22,15 @@ You can either use the CLI:
 ajuga -i (input language) [-o (output language)] [-t (translation backend)] [-a (audio backend)] [-s (tts backend)]
 ```
 
+![](./etc/cli.gif)
+
 ..or the (easier to use) prompt:
 
 ```shell
 ajuga
 ```
+
+![](./etc/prompt.gif)
 
 After setting up the application, you'll see a text interface, into which you can type in your text.
 
