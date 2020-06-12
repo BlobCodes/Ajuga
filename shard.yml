@@ -1,0 +1,23 @@
+name: ajuga
+version: 0.1.0
+
+authors:
+  - BlobCodes <blobcodes@protonmail.com>
+
+targets:
+  ajuga:
+    main: src/ajuga.cr
+
+dependencies:
+  term-prompt:
+    github: crystal-term/prompt
+  term-reader:
+    github: crystal-term/reader
+  term-screen:
+    github: crystal-term/screen
+  tallboy:
+    github: epoch/tallboy
+
+crystal: 0.35.0
+
+license: MIT
